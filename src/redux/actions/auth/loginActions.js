@@ -10,7 +10,7 @@ if (!firebase.apps.length) {
   firebase.initializeApp(config)
 }
 
-let firebaseAuth = firebase.auth()
+let firebaseAuth = firebase.auth
 
 // const initAuth0 = new auth0.WebAuth(configAuth)
 
